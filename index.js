@@ -10,11 +10,7 @@ const fullPath = path.join(process.env.GITHUB_WORKSPACE, dir || "", fileName);
 core.info('jsonString');
 core.info(jsonString);
 
-let fileContent = JSON.stringify(jsonString);
-core.info('fileContent1');
-core.info(fileContent);
-
-fileContent = JSON.parse(fileContent)
+const fileContent = JSON.parse(jsonString);
 core.info('fileContent2');
 core.info(fileContent);
 
