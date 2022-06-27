@@ -1,6 +1,6 @@
 {
   "name": "create-json-next",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "An Action to create .json file and use on others steps of actions in your workflow.",
   "main": "index.js",
   "scripts": {
