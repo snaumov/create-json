@@ -1,6 +1,6 @@
 {
-  "name": "create-json",
-  "version": "1.1.2",
+  "name": "create-json-next",
+  "version": "0.0.1",
   "description": "An Action to create .json file and use on others steps of actions in your workflow.",
   "main": "index.js",
   "scripts": {
@@ -8,21 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jsdaniell/create-json.git"
+    "url": "git+https://github.com/snaumov/create-json-next.git"
   },
   "keywords": [
     "json",
     "action",
     "github"
   ],
-  "author": "jsdaniell",
+  "author": "snaumov",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jsdaniell/create-json/issues"
+    "url": "https://github.com/snaumov/create-json-next/issues"
   },
-  "homepage": "https://github.com/jsdaniell/create-json#readme",
+  "homepage": "https://github.com/snaumov/create-json-next#readme",
   "dependencies": {
-    "@actions/core": "^1.2.3",
-    "@actions/github": "^2.1.1"
+    "@actions/core": "1.9.0",
+    "@actions/github": "5.0.3"
   }
 }
